@@ -1,11 +1,17 @@
 body {
-    margin: 0;            /* Reset default margin */
+	margin: 0;            /* Reset default margin */
+	height: 100vh;        /* Viewport-relative units */
+	background-image: linear-gradient(to right, #e0ddf8, #d0edfd);
+	/* background-image: url(Cuidados.svg), none; */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat, repeat; /* Do not repeat the image */
+	background-size: contain, cover; /* Resize the background image to cover the entire container */
+
 }
 
-embed {
-    display: block;       /* iframes are inline by default */
-    background: #000;
-    border: none;         /* Reset default border */
-    height: 100vh;        /* Viewport-relative units */
-    width: 100vw;
+object {
+	display: block;       /* iframes are inline by default */
+	border: none;         /* Reset default border */
+	height: 100vh;        /* Viewport-relative units */
+	width: 100vw;
 }
